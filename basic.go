@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	pack1 "github.com/package1"
+)
 
 func main() {
-	fmt.Printf("Hello World !")
+	fmt.Println("Hello World")
+	fmt.Println(pack1.Add(2, 3))
 }
